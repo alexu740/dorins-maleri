@@ -26,8 +26,8 @@ export default function App() {
         ></div>
         <div className="container position-relative">
           <img
-            src="/dorins-maleri/logo.jpeg"
-            alt="Dorins Måleri"
+            src="/logo.jpeg"
+            alt="Dorins Måleri logotyp"
             style={{ maxWidth: '300px', height: 'auto' }}
             className="img-fluid mb-3"
           />

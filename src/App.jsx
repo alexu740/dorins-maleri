@@ -32,7 +32,9 @@ export default function App() {
             className="img-fluid mb-3"
           />
           <p className="lead">Färg, kvalitet och hantverk i varje penseldrag</p>
-          <a href="#contact" className="btn btn-warning btn-lg mt-3">Kontakta oss</a>
+          <a href="#contact" className="btn btn-warning btn-lg mt-3">
+            Kontakta oss
+          </a>
         </div>
       </div>
 
@@ -40,12 +42,16 @@ export default function App() {
       <div className="container py-5">
         <h2 className="mb-4">Om Oss</h2>
         <p>
-          Vi är ett familjeföretag med över 20 års erfarenhet av måleri.
-          Vi erbjuder professionell service och hållbara resultat för både privatpersoner och företag – oavsett var i Sverige du befinner dig.
+          Vi är ett familjeföretag med över 20 års erfarenhet av måleri. Vi
+          erbjuder professionell service och hållbara resultat för både
+          privatpersoner och företag – oavsett var i Sverige du befinner dig.
         </p>
         <p>
-          Utöver traditionellt måleri är vi specialister på arbete med <strong>linoljefärg</strong>, <strong>kyrkomåleri</strong> och <strong>guldförgyllning</strong>. 
-          Dessa hantverksmetoder kräver stor precision, tålamod och respekt för historien – något vi har byggt vår expertis kring.
+          Utöver traditionellt måleri är vi specialister på arbete med{' '}
+          <strong>linoljefärg</strong>, <strong>kyrkomåleri</strong> och{' '}
+          <strong>guldförgyllning</strong>. Dessa hantverksmetoder kräver stor
+          precision, tålamod och respekt för historien – något vi har byggt vår
+          expertis kring.
         </p>
       </div>
 
@@ -82,11 +88,15 @@ export default function App() {
           <div className="col-md-6 mb-4">
             <p>
               <strong>Telefon:</strong>{' '}
-              <a href="tel:0729343610" className="text-decoration-none">072-934 36 10</a>
+              <a href="tel:0729343610" className="text-decoration-none">
+                072-934 36 10
+              </a>
             </p>
             <p>
               <strong>Email:</strong>{' '}
-              <a href="mailto:dorinsmaleri@gmail.com" className="text-decoration-none">dorinsmaleri@gmail.com</a>
+              <a href="mailto:dorinsmaleri@gmail.com" className="text-decoration-none">
+                dorinsmaleri@gmail.com
+              </a>
             </p>
             <p><strong>Bas:</strong> Örebro</p>
             <p><strong>Tjänster:</strong> Vi erbjuder måleritjänster i hela Sverige</p>
@@ -96,7 +106,7 @@ export default function App() {
               <iframe
                 src="https://maps.google.com/maps?q=örebro&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 allowFullScreen
-                title="Karta"
+                title="Karta över Örebro"
               ></iframe>
             </div>
           </div>
